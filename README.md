@@ -1,4 +1,4 @@
-# tTask App
+# Task App
 
 ### Traditional task app built with React, JavaScript and CSS.
 ### Its functionality consists of creating tasks, which are grouped. These can be deleted or marked as completed.
