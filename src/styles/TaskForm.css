@@ -1,0 +1,33 @@
+.task-form {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-input {
+  background-color: #FFF;
+  border: 2px solid #DB6400;
+  border-radius: 7px 0 0 7px;
+  font-size: 18px;
+  outline: none;
+  padding: 14px 32px 14px 16px;
+  width: 400px;
+}
+
+.task-btn {
+  background-color: #DB6400;
+  border: none;
+  border-radius: 0 7px 7px 0;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+  padding: 16px;
+  text-transform: capitalize;
+  transition: all 0.5s;
+}
+
+.task-btn:hover {
+  background-color: #a64b00;
+}
