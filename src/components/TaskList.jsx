@@ -1,6 +1,6 @@
 import { useState } from "react";
 import '../styles/TaskList.css';
-// import Task from './Task';
+import Task from './Task';
 import TaskForm from './TaskForm';
 
 
@@ -32,8 +32,8 @@ function TaskList() {
 
   return (
     <>
-      <TaskForm onSubmit={addTask} />
-      {/* <div className='task-list-container'>
+      <TaskForm addTask={addTask} />
+      <div className='task-list-container'>
         {
           tasks.map((task) => 
             <Task 
@@ -46,7 +46,7 @@ function TaskList() {
             />
           )
         }
-      </div> */}
+      </div>
     </>
   )
 }
